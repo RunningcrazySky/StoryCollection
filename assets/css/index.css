@@ -1,5 +1,6 @@
-.title h1{
-    letter-spacing: 15px;
+.title img{
+    padding: 0 27px;
+    background-color: rgb(35, 38, 46);
 }
 .layui-footer{
     text-align: center;

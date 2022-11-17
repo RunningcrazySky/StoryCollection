@@ -5,11 +5,8 @@ html, body{
     width: 100%;
     background: url('../images/login_bg1.jpg') no-repeat center/cover
 }
-.c-red{
-    background-color: red;
-}
 img{
-    width: 100px;
+    width: 200px;
     border-radius: 100px;
 }
 .login_reg{
@@ -29,7 +26,7 @@ img{
 .login_title h1{
     font-weight: 900;
     letter-spacing: 10px;
-    color: red;
+    color: rgb(0, 150, 136);
     text-shadow: 1px 1px 3px pink, 0 0 1px #333;
 }
 .reg-box{

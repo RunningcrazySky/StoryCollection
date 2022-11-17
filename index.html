@@ -13,7 +13,7 @@
     <div class="layui-layout layui-layout-admin">
       <div class="layui-header">
         <div class="layui-logo layui-hide-xs layui-bg-black title">
-            <h1>故事会</h1>
+            <img src="/assets/images/logo.png" alt="">
         </div>
         <ul class="layui-nav layui-layout-right">
           <li class="layui-nav-item layui-hide layui-show-md-inline-block">
@@ -23,9 +23,9 @@
               个人中心
             </a>
             <dl class="layui-nav-child">
-              <dd><a href="">基本资料</a></dd>
-              <dd><a href="">更换头像</a></dd>
-              <dd><a href="">重置密码</a></dd>
+              <dd><a href="/user/user_info.html" target="fm">基本资料</a></dd>
+              <dd><a href="/user/user_avatar.html" target="fm">更换头像</a></dd>
+              <dd><a href="/user/usre_pwd.html" target="fm">重置密码</a></dd>
             </dl>
           </li>
           <li class="layui-nav-item" lay-header-event="menuRight" lay-unselect>
@@ -75,15 +75,15 @@
                 个人中心
             </a>
               <dl class="layui-nav-child">
-                <dd><a href="javascript:;">
+                <dd><a href="/user/user_info.html" target="fm">
                     <i class="layui-icon layui-icon-face-smile"></i>  
                     基本资料
                 </a></dd>
-                <dd><a href="javascript:;">
+                <dd><a href="/user/user_avatar.html" target="fm">
                     <i class="layui-icon layui-icon-face-smile"></i>  
                     更换头像
                 </a></dd>
-                <dd><a href="javascript:;">
+                <dd><a href="/user/usre_pwd.html" target="fm">
                     <i class="layui-icon layui-icon-face-smile"></i>  
                     重置密码
                 </a></dd>
@@ -103,10 +103,10 @@
         @www.bairistudy.com - 百日梦想家
       </div>
     </div>
-    <!-- 导入layui -->
-    <script src="./assets/lib/layui/layui.all.js"></script>
     <!-- 导入jquery -->
     <script src="./assets/lib/jquery.js"></script>
+    <!-- 导入layui -->
+    <script src="./assets/lib/layui/layui.all.js"></script>
     <!-- 导入自定义API -->
     <script src="/assets/js/baseAPI.js"></script>
     <!-- 导入index.js -->
