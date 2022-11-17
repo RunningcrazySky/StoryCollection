@@ -34,15 +34,15 @@ function getUserInfo(){
             renderAvatar(res.data)
         },
         // 无论成功与否都调用 complete 函数
-        // complete:function(res){
-        //     // console.log('执行了 complete 回调');
-        //     // console.log(res);
-        //     // 如果获取用户信息失败，强制清除停止跳转
-        //     if(res.responseJSON.status === 1 && res.responseJSON.message === '身份认证失败！'){
-        //         localStorage.removeItem('token')
-        //         location.href= '/login.html'
-        //     }
-        // }
+        complete:function(res){
+            // console.log('执行了 complete 回调');
+            // console.log(res);
+            // 如果获取用户信息失败，强制清除停止跳转
+            if(res.responseJSON.status === 1 && res.responseJSON.message === '身份认证失败！'){
+                localStorage.removeItem('token')
+                location.href= '/login.html'
+            }
+        }
     })
 }
 
