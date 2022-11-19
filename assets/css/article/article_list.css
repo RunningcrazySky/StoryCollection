@@ -1,0 +1,16 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 15px;
+  background-color: rgb(240, 242, 244);
+}
+.layui-table, .layui-table th{
+    text-align: center;
+}
+#form-edit{
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+
